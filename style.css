@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 940px;
+  background-position: center top;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
+    url("images/background.gif");
+}
+.header-top {
+  margin: 0 auto;
+  width: 1200px;
+  height: 90px;
+  border-bottom: 1px solid #2e2e2f;
+}
+.logo {
+  background-image: url("images/logo.png");
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 35px;
+}
+.menu {
+  height: 90px;
+}
+.menu li {
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  list-style: none;
+  padding: 30px;
+}
+.header-text {
+  color: #ffffff;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 72px;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+.header-text h2 {
+  font-size: 32px;
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+.wrapper {
+  display: flex;
+  height: 120px;
+}
+.user {
+  background-color: #21424a;
+  flex: 1;
+}
+.register {
+  background-color: #2fac6c;
+  flex: 1;
+}
+.wrapper a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+main p {
+  font-family: "Montserrat", sans-serif;
+}
+.packages {
+  background-image: url("images/41.jpg");
+  height: 382px;
+  background-size: cover;
+}
